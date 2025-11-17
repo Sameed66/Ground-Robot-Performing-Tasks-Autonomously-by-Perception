@@ -1,0 +1,340 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6e35b80400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6e35b4fd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6e35b4fd90>>, mixin_verb=('build',))
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.382s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/masters/ros2/src'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_fusion) by extension 'ros'
+[0.395s] DEBUG:colcon.colcon_core.package_identification:Package 'sensor_fusion' with type 'ros.ament_python' and name 'sensor_fusion'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'ros'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extensions ['cmake', 'python']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'cmake'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_autorace/turtlebot3_autorace' with type 'ros.ament_cmake' and name 'turtlebot3_autorace'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extension 'ignore_ament_install'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extensions ['colcon_pkg']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extension 'colcon_pkg'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extensions ['colcon_meta']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extension 'colcon_meta'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extensions ['ros']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_camera) by extension 'ros'
+[0.398s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_autorace/turtlebot3_autorace_camera' with type 'ros.ament_python' and name 'turtlebot3_autorace_camera'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_detect) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_autorace/turtlebot3_autorace_detect' with type 'ros.ament_python' and name 'turtlebot3_autorace_detect'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(turtlebot3_autorace/turtlebot3_autorace_mission) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlebot3_autorace/turtlebot3_autorace_mission' with type 'ros.ament_python' and name 'turtlebot3_autorace_mission'
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.432s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/masters/ros2/install
+[0.432s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/masters/turtlebot3_ws/install
+[0.433s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/humble
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'sensor_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/masters/ros2/src/build/sensor_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/masters/ros2/src/install/sensor_fusion', 'merge_install': False, 'path': '/home/masters/ros2/src/sensor_fusion', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_autorace_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/masters/ros2/src/build/turtlebot3_autorace_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/masters/ros2/src/install/turtlebot3_autorace_camera', 'merge_install': False, 'path': '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_camera', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_autorace_detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/masters/ros2/src/build/turtlebot3_autorace_detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/masters/ros2/src/install/turtlebot3_autorace_detect', 'merge_install': False, 'path': '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_detect', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace_mission' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_autorace_mission' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/masters/ros2/src/build/turtlebot3_autorace_mission', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/masters/ros2/src/install/turtlebot3_autorace_mission', 'merge_install': False, 'path': '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_mission', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'cmake_force_configure' from command line to 'False'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'ament_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'catkin_cmake_args' from command line to 'None'
+[0.489s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_autorace' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.489s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_autorace' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/masters/ros2/src/build/turtlebot3_autorace', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/masters/ros2/src/install/turtlebot3_autorace', 'merge_install': False, 'path': '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace', 'symlink_install': False, 'test_result_base': None}
+[0.489s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.490s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_camera' with build type 'ament_python'
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace_camera', 'ament_prefix_path')
+[0.493s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/hook/ament_prefix_path.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/hook/ament_prefix_path.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/hook/ament_prefix_path.sh'
+[0.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_detect' with build type 'ament_python'
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace_detect', 'ament_prefix_path')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/hook/ament_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/hook/ament_prefix_path.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/hook/ament_prefix_path.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.503s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_mission' with build type 'ament_python'
+[0.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace_mission', 'ament_prefix_path')
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/hook/ament_prefix_path.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/hook/ament_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/hook/ament_prefix_path.sh'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/masters/ros2/src/sensor_fusion' with build type 'ament_python'
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_fusion', 'ament_prefix_path')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/hook/ament_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/hook/ament_prefix_path.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/hook/ament_prefix_path.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.717s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_camera'
+[0.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.929s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_detect'
+[0.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.135s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_mission'
+[1.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.343s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/masters/ros2/src/sensor_fusion'
+[1.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.343s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_mission': PYTHONPATH=/home/masters/ros2/src/build/turtlebot3_autorace_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_mission build --build-base /home/masters/ros2/src/build/turtlebot3_autorace_mission/build install --record /home/masters/ros2/src/build/turtlebot3_autorace_mission/install.log --single-version-externally-managed install_data
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/masters/ros2/src/sensor_fusion': PYTHONPATH=/home/masters/ros2/src/build/sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/sensor_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensor_fusion build --build-base /home/masters/ros2/src/build/sensor_fusion/build install --record /home/masters/ros2/src/build/sensor_fusion/install.log --single-version-externally-managed install_data
+[1.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_camera': PYTHONPATH=/home/masters/ros2/src/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_camera build --build-base /home/masters/ros2/src/build/turtlebot3_autorace_camera/build install --record /home/masters/ros2/src/build/turtlebot3_autorace_camera/install.log --single-version-externally-managed install_data
+[1.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_detect': PYTHONPATH=/home/masters/ros2/src/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_detect build --build-base /home/masters/ros2/src/build/turtlebot3_autorace_detect/build install --record /home/masters/ros2/src/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/masters/ros2/src/sensor_fusion' returned '0': PYTHONPATH=/home/masters/ros2/src/build/sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/sensor_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensor_fusion build --build-base /home/masters/ros2/src/build/sensor_fusion/build install --record /home/masters/ros2/src/build/sensor_fusion/install.log --single-version-externally-managed install_data
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/sensor_fusion' for CMake module files
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/sensor_fusion' for CMake config files
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/sensor_fusion/lib'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/sensor_fusion/bin'
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/sensor_fusion/lib/pkgconfig/sensor_fusion.pc'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/sensor_fusion/lib/python3.10/site-packages'
+[1.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_fusion', 'pythonpath')
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/hook/pythonpath.ps1'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/hook/pythonpath.dsv'
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/hook/pythonpath.sh'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/sensor_fusion/bin'
+[1.951s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_fusion)
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/package.ps1'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/package.dsv'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/package.sh'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/package.bash'
+[1.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/sensor_fusion/share/sensor_fusion/package.zsh'
+[1.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/masters/ros2/src/install/sensor_fusion/share/colcon-core/packages/sensor_fusion)
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_detect' for CMake module files
+[1.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_detect' returned '0': PYTHONPATH=/home/masters/ros2/src/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_detect build --build-base /home/masters/ros2/src/build/turtlebot3_autorace_detect/build install --record /home/masters/ros2/src/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_detect' for CMake config files
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_detect/bin'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/pkgconfig/turtlebot3_autorace_detect.pc'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/python3.10/site-packages'
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace_detect', 'pythonpath')
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/hook/pythonpath.ps1'
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/hook/pythonpath.dsv'
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/hook/pythonpath.sh'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_detect/bin'
+[1.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_autorace_detect)
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/package.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/package.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/package.sh'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/package.bash'
+[1.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/package.zsh'
+[1.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/masters/ros2/src/install/turtlebot3_autorace_detect/share/colcon-core/packages/turtlebot3_autorace_detect)
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_camera' for CMake module files
+[1.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_camera' returned '0': PYTHONPATH=/home/masters/ros2/src/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_camera build --build-base /home/masters/ros2/src/build/turtlebot3_autorace_camera/build install --record /home/masters/ros2/src/build/turtlebot3_autorace_camera/install.log --single-version-externally-managed install_data
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_camera' for CMake config files
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib'
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_camera/bin'
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/pkgconfig/turtlebot3_autorace_camera.pc'
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/python3.10/site-packages'
+[1.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace_camera', 'pythonpath')
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/hook/pythonpath.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/hook/pythonpath.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/hook/pythonpath.sh'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_camera/bin'
+[1.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_autorace_camera)
+[1.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/package.ps1'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/package.dsv'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/package.sh'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/package.bash'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/package.zsh'
+[1.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/masters/ros2/src/install/turtlebot3_autorace_camera/share/colcon-core/packages/turtlebot3_autorace_camera)
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_mission' for CMake module files
+[1.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_mission' returned '0': PYTHONPATH=/home/masters/ros2/src/build/turtlebot3_autorace_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_autorace_mission build --build-base /home/masters/ros2/src/build/turtlebot3_autorace_mission/build install --record /home/masters/ros2/src/build/turtlebot3_autorace_mission/install.log --single-version-externally-managed install_data
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_mission' for CMake config files
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_mission/bin'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/pkgconfig/turtlebot3_autorace_mission.pc'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/python3.10/site-packages'
+[1.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace_mission', 'pythonpath')
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/hook/pythonpath.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/hook/pythonpath.dsv'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/hook/pythonpath.sh'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace_mission/bin'
+[1.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_autorace_mission)
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/package.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/package.dsv'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/package.sh'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/package.bash'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission/package.zsh'
+[1.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/masters/ros2/src/install/turtlebot3_autorace_mission/share/colcon-core/packages/turtlebot3_autorace_mission)
+[1.975s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace' with build type 'ament_cmake'
+[1.975s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace'
+[1.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/masters/ros2/src/build/turtlebot3_autorace': AMENT_PREFIX_PATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission:/home/masters/ros2/src/install/turtlebot3_autorace_detect:/home/masters/ros2/src/install/turtlebot3_autorace_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masters/ros2/install/turtlebot3_autorace_mission:/home/masters/ros2/install/turtlebot3_autorace_detect:/home/masters/ros2/install/turtlebot3_autorace_camera:/home/masters/ros2/install/sensor_fusion:/home/masters/turtlebot3_ws/install/turtlebot3_teleop:/home/masters/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble PYTHONPATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/masters/ros2/src/build/turtlebot3_autorace -- -j16 -l16
+[2.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/masters/ros2/src/build/turtlebot3_autorace' returned '0': AMENT_PREFIX_PATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission:/home/masters/ros2/src/install/turtlebot3_autorace_detect:/home/masters/ros2/src/install/turtlebot3_autorace_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masters/ros2/install/turtlebot3_autorace_mission:/home/masters/ros2/install/turtlebot3_autorace_detect:/home/masters/ros2/install/turtlebot3_autorace_camera:/home/masters/ros2/install/sensor_fusion:/home/masters/turtlebot3_ws/install/turtlebot3_teleop:/home/masters/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble PYTHONPATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/masters/ros2/src/build/turtlebot3_autorace -- -j16 -l16
+[2.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/masters/ros2/src/build/turtlebot3_autorace': AMENT_PREFIX_PATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission:/home/masters/ros2/src/install/turtlebot3_autorace_detect:/home/masters/ros2/src/install/turtlebot3_autorace_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masters/ros2/install/turtlebot3_autorace_mission:/home/masters/ros2/install/turtlebot3_autorace_detect:/home/masters/ros2/install/turtlebot3_autorace_camera:/home/masters/ros2/install/sensor_fusion:/home/masters/turtlebot3_ws/install/turtlebot3_teleop:/home/masters/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble PYTHONPATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/masters/ros2/src/build/turtlebot3_autorace
+[2.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_autorace)
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace' for CMake module files
+[2.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/masters/ros2/src/build/turtlebot3_autorace' returned '0': AMENT_PREFIX_PATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission:/home/masters/ros2/src/install/turtlebot3_autorace_detect:/home/masters/ros2/src/install/turtlebot3_autorace_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/masters/ros2/install/turtlebot3_autorace_mission:/home/masters/ros2/install/turtlebot3_autorace_detect:/home/masters/ros2/install/turtlebot3_autorace_camera:/home/masters/ros2/install/sensor_fusion:/home/masters/turtlebot3_ws/install/turtlebot3_teleop:/home/masters/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble PYTHONPATH=/home/masters/ros2/src/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/masters/ros2/src/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/masters/ros2/src/build/turtlebot3_autorace
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace' for CMake config files
+[2.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace', 'cmake_prefix_path')
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/hook/cmake_prefix_path.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/hook/cmake_prefix_path.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/hook/cmake_prefix_path.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/bin'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/lib/pkgconfig/turtlebot3_autorace.pc'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/lib/python3.10/site-packages'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/bin'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.dsv'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.sh'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.bash'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.zsh'
+[2.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/masters/ros2/src/install/turtlebot3_autorace/share/colcon-core/packages/turtlebot3_autorace)
+[2.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_autorace)
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace' for CMake module files
+[2.053s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace' for CMake config files
+[2.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_autorace', 'cmake_prefix_path')
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/hook/cmake_prefix_path.ps1'
+[2.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/hook/cmake_prefix_path.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/hook/cmake_prefix_path.sh'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/bin'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/lib/pkgconfig/turtlebot3_autorace.pc'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/lib/python3.10/site-packages'
+[2.055s] Level 1:colcon.colcon_core.environment:checking '/home/masters/ros2/src/install/turtlebot3_autorace/bin'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.ps1'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.dsv'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.sh'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.bash'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/masters/ros2/src/install/turtlebot3_autorace/share/turtlebot3_autorace/package.zsh'
+[2.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/masters/ros2/src/install/turtlebot3_autorace/share/colcon-core/packages/turtlebot3_autorace)
+[2.057s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.058s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.062s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.071s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.071s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/masters/ros2/src/install/local_setup.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/masters/ros2/src/install/_local_setup_util_ps1.py'
+[2.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/masters/ros2/src/install/setup.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/masters/ros2/src/install/local_setup.sh'
+[2.075s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/masters/ros2/src/install/_local_setup_util_sh.py'
+[2.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/masters/ros2/src/install/setup.sh'
+[2.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/masters/ros2/src/install/local_setup.bash'
+[2.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/masters/ros2/src/install/setup.bash'
+[2.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/masters/ros2/src/install/local_setup.zsh'
+[2.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/masters/ros2/src/install/setup.zsh'

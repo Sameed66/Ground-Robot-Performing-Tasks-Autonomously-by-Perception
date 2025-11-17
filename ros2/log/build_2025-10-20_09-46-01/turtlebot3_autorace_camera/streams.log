@@ -1,0 +1,48 @@
+[1.151s] Invoking command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_camera': PYTHONPATH=/home/masters/ros2/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_camera build --build-base /home/masters/ros2/build/turtlebot3_autorace_camera/build install --record /home/masters/ros2/build/turtlebot3_autorace_camera/install.log --single-version-externally-managed install_data
+[1.386s] running egg_info
+[1.387s] creating ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info
+[1.387s] writing ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/PKG-INFO
+[1.387s] writing dependency_links to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/dependency_links.txt
+[1.388s] writing entry points to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/entry_points.txt
+[1.388s] writing requirements to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/requires.txt
+[1.388s] writing top-level names to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/top_level.txt
+[1.388s] writing manifest file '../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/SOURCES.txt'
+[1.390s] reading manifest file '../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/SOURCES.txt'
+[1.391s] writing manifest file '../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/SOURCES.txt'
+[1.391s] running build
+[1.391s] running build_py
+[1.391s] creating /home/masters/ros2/build/turtlebot3_autorace_camera/build
+[1.391s] creating /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib
+[1.391s] creating /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[1.391s] copying turtlebot3_autorace_camera/__init__.py -> /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[1.391s] copying turtlebot3_autorace_camera/image_compensation.py -> /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[1.391s] copying turtlebot3_autorace_camera/image_projection.py -> /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[1.392s] running install
+[1.392s] running install_lib
+[1.392s] creating /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[1.392s] copying /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera/__init__.py -> /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[1.392s] copying /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera/image_compensation.py -> /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[1.392s] copying /home/masters/ros2/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera/image_projection.py -> /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[1.393s] byte-compiling /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera/__init__.py to __init__.cpython-310.pyc
+[1.393s] byte-compiling /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera/image_compensation.py to image_compensation.cpython-310.pyc
+[1.394s] byte-compiling /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera/image_projection.py to image_projection.cpython-310.pyc
+[1.395s] running install_data
+[1.395s] creating /home/masters/ros2/install/turtlebot3_autorace_camera/share/ament_index
+[1.395s] creating /home/masters/ros2/install/turtlebot3_autorace_camera/share/ament_index/resource_index
+[1.395s] creating /home/masters/ros2/install/turtlebot3_autorace_camera/share/ament_index/resource_index/packages
+[1.395s] copying resource/turtlebot3_autorace_camera -> /home/masters/ros2/install/turtlebot3_autorace_camera/share/ament_index/resource_index/packages
+[1.395s] copying package.xml -> /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera
+[1.395s] creating /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/launch
+[1.395s] copying launch/extrinsic_camera_calibration.launch.py -> /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/launch
+[1.395s] copying launch/intrinsic_camera_calibration.launch.py -> /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/launch
+[1.396s] creating /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/calibration
+[1.396s] creating /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/calibration/extrinsic_calibration
+[1.396s] copying calibration/extrinsic_calibration/compensation.yaml -> /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/calibration/extrinsic_calibration
+[1.396s] copying calibration/extrinsic_calibration/projection.yaml -> /home/masters/ros2/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/calibration/extrinsic_calibration
+[1.396s] running install_egg_info
+[1.397s] Copying ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info to /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera-1.2.2-py3.10.egg-info
+[1.398s] running install_scripts
+[1.418s] Installing image_compensation script to /home/masters/ros2/install/turtlebot3_autorace_camera/lib/turtlebot3_autorace_camera
+[1.418s] Installing image_projection script to /home/masters/ros2/install/turtlebot3_autorace_camera/lib/turtlebot3_autorace_camera
+[1.418s] writing list of installed files to '/home/masters/ros2/build/turtlebot3_autorace_camera/install.log'
+[1.442s] Invoked command in '/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_camera' returned '0': PYTHONPATH=/home/masters/ros2/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_camera build --build-base /home/masters/ros2/build/turtlebot3_autorace_camera/build install --record /home/masters/ros2/build/turtlebot3_autorace_camera/install.log --single-version-externally-managed install_data

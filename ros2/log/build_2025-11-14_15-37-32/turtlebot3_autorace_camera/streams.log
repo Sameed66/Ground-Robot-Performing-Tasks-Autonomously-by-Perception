@@ -1,0 +1,18 @@
+[1.136s] Invoking command in '/home/masters/ros2/build/turtlebot3_autorace_camera': PYTHONPATH=/home/masters/ros2/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/masters/ros2/build/turtlebot3_autorace_camera/build --no-deps symlink_data
+[1.360s] running develop
+[1.500s] running egg_info
+[1.500s] writing turtlebot3_autorace_camera.egg-info/PKG-INFO
+[1.500s] writing dependency_links to turtlebot3_autorace_camera.egg-info/dependency_links.txt
+[1.500s] writing entry points to turtlebot3_autorace_camera.egg-info/entry_points.txt
+[1.500s] writing requirements to turtlebot3_autorace_camera.egg-info/requires.txt
+[1.500s] writing top-level names to turtlebot3_autorace_camera.egg-info/top_level.txt
+[1.501s] reading manifest file 'turtlebot3_autorace_camera.egg-info/SOURCES.txt'
+[1.502s] writing manifest file 'turtlebot3_autorace_camera.egg-info/SOURCES.txt'
+[1.503s] running build_ext
+[1.503s] Creating /home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3-autorace-camera.egg-link (link to .)
+[1.504s] Installing image_compensation script to /home/masters/ros2/install/turtlebot3_autorace_camera/lib/turtlebot3_autorace_camera
+[1.504s] Installing image_projection script to /home/masters/ros2/install/turtlebot3_autorace_camera/lib/turtlebot3_autorace_camera
+[1.504s] 
+[1.504s] Installed /home/masters/ros2/build/turtlebot3_autorace_camera
+[1.504s] running symlink_data
+[1.523s] Invoked command in '/home/masters/ros2/build/turtlebot3_autorace_camera' returned '0': PYTHONPATH=/home/masters/ros2/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/masters/ros2/build/turtlebot3_autorace_camera/build --no-deps symlink_data

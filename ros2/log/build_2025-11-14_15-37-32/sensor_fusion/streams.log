@@ -1,0 +1,18 @@
+[1.140s] Invoking command in '/home/masters/ros2/build/sensor_fusion': PYTHONPATH=/home/masters/ros2/build/sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/install/sensor_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/masters/ros2/build/sensor_fusion/build --no-deps symlink_data
+[1.366s] running develop
+[1.510s] running egg_info
+[1.510s] writing sensor_fusion.egg-info/PKG-INFO
+[1.510s] writing dependency_links to sensor_fusion.egg-info/dependency_links.txt
+[1.510s] writing entry points to sensor_fusion.egg-info/entry_points.txt
+[1.510s] writing requirements to sensor_fusion.egg-info/requires.txt
+[1.510s] writing top-level names to sensor_fusion.egg-info/top_level.txt
+[1.512s] reading manifest file 'sensor_fusion.egg-info/SOURCES.txt'
+[1.513s] writing manifest file 'sensor_fusion.egg-info/SOURCES.txt'
+[1.514s] running build_ext
+[1.514s] Creating /home/masters/ros2/install/sensor_fusion/lib/python3.10/site-packages/sensor-fusion.egg-link (link to .)
+[1.514s] Installing image_executable script to /home/masters/ros2/install/sensor_fusion/lib/sensor_fusion
+[1.514s] Installing lidar_executable script to /home/masters/ros2/install/sensor_fusion/lib/sensor_fusion
+[1.515s] 
+[1.515s] Installed /home/masters/ros2/build/sensor_fusion
+[1.515s] running symlink_data
+[1.542s] Invoked command in '/home/masters/ros2/build/sensor_fusion' returned '0': PYTHONPATH=/home/masters/ros2/build/sensor_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masters/ros2/install/sensor_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/masters/ros2/build/sensor_fusion/build --no-deps symlink_data
