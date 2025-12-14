@@ -1,1 +1,0 @@
-/home/masters/ros2/build/turtlebot3_autorace/ament_cmake_core/turtlebot3_autoraceConfig-version.cmake

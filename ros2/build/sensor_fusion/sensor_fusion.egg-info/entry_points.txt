@@ -1,4 +1,0 @@
-[console_scripts]
-image_executable = sensor_fusion.image:main
-lidar_executable = sensor_fusion.lidar:main
-

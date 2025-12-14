@@ -1,1 +1,0 @@
-/home/masters/ros2/src/turtlebot3_autorace/turtlebot3_autorace_detect/launch/detect_level_crossing.launch.py
