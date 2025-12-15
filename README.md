@@ -1456,7 +1456,4 @@ This project follows the official TurtleBot3 documentation:
 
 See individual package licenses for details.
 
-## Maintainer
-
-masters (sameedahmed734@gmail.com)
 
