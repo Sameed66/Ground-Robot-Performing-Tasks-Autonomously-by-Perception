@@ -521,7 +521,7 @@ The following diagram illustrates the bird’s-eye (top-down) view used for lane
 - **Lane Center**: Midpoint computed between left and right lanes  
 - **Centerline**: Used for vehicle alignment and trajectory planning
 
-## Lan Following Control 
+## Lane Following Control 
 
 After detecting lane boundaries and estimating the lane center, the robot must convert this perception output into motion commands. This is handled by the lane following control node, which generates linear and angular velocity commands to keep the TurtleBot3 centered within the lane.
 This module forms the control layer of the autonomous driving pipeline, bridging vision-based perception and robot actuation.
